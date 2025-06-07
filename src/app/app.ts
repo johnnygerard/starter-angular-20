@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.html',
-  styles: [],
+  host: { class: "block" },
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class App {
-  protected title = 'starter-angular-20';
-}
+export class App {}
