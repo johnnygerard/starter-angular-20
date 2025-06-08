@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Routes } from "@angular/router";
 
 export const routes: Routes = [
   {
@@ -9,7 +9,8 @@ export const routes: Routes = [
   },
   {
     path: "**",
-    loadComponent: async () => (await import("@/app/page/not-found/not-found")).NotFound,
+    loadComponent: async () =>
+      (await import("@/app/page/not-found/not-found")).NotFound,
     title: "Page Not Found",
   },
 ];

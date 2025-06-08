@@ -1,13 +1,11 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
-import {RouterLink} from "@angular/router";
+import { ChangeDetectionStrategy, Component } from "@angular/core";
+import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-not-found',
+  selector: "app-not-found",
   imports: [RouterLink],
-  templateUrl: './not-found.ng.html',
+  templateUrl: "./not-found.ng.html",
   host: { class: "block" },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NotFound {
-
-}
+export class NotFound {}

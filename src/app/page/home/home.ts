@@ -1,12 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from "@angular/core";
 
 @Component({
-  selector: 'app-home',
+  selector: "app-home",
   imports: [],
-  templateUrl: './home.ng.html',
+  templateUrl: "./home.ng.html",
   host: { class: "block" },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Home {
-
-}
+export class Home {}

@@ -1,11 +1,11 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   imports: [RouterOutlet],
-  templateUrl: './app.ng.html',
+  templateUrl: "./app.ng.html",
   host: { class: "block" },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class App {}
