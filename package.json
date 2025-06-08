@@ -26,12 +26,15 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "3.5.3",
     "typescript": "~5.8.2"
   },
   "name": "starter-angular-20",
   "private": true,
   "scripts": {
     "build": "ng build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "ng": "ng",
     "serve:ssr:starter-angular-20": "node dist/starter-angular-20/server/server.mjs",
     "start": "ng serve",
