@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@layer base {
+  button:enabled {
+    cursor: pointer;
+  }
+
+  a,
+  button {
+    outline: none;
+    outline-offset: 0;
+  }
+}
