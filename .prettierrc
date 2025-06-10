@@ -1,4 +1,10 @@
 {
+  "overrides": [
+    {
+      "files": "*.ng.html",
+      "options": { "parser": "angular" }
+    }
+  ],
   "plugins": ["prettier-plugin-tailwindcss"],
   "tailwindStylesheet": "src/styles.css"
 }
